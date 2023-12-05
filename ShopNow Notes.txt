@@ -1,0 +1,36 @@
+1. Install virtual environment package using this command "pip install virtualenv".
+
+2. Create virtual environment for this project by run this command "virtualenv venv" (Note: venv is name of virtual environment).
+
+3. To activate the virtual environment run this ".\venv\Scripts\activate".
+
+4. Now run "pip list" it will give what are the packages install in this venv
+	Package Version
+	------- -------
+	pip     23.3.1
+
+5. Now install django package in this venv by running this command "pip install django"
+
+6. And also install pillow package for images in this venv by running this  command "pip install pillow"
+
+7. Now run "pip list" it will give what are the packages install in this venv
+	Package  Version
+	-------- -------
+	asgiref  3.7.2
+	Django   5.0
+	Pillow   10.1.0
+	pip      23.3.1
+	sqlparse 0.4.4
+	tzdata   2023.3
+
+8. To create main project with name "ShopNow" run this command "django-admin startproject ShopNow".
+
+9. Now go to ShopNow Project directory by running this command "cd ShopNow"
+
+10. New Run Default Django webserver by running this command in terminal "python manage.py runserver"  By default, the server runs on port 8000.
+	If you want to change port to 2023 then run "python manage.py runserver 2023"
+	
+	open your browser and open http://127.0.0.1:2023/ or http://localhost:2023/ 
+	if it open then your project setup well.
+
+11. 
